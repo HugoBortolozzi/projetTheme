@@ -75,15 +75,10 @@
     </div> <!-- end of copyright --> 
     <!-- end of copyright -->
 
-    <!-- Scripts -->
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="<?php echo get_template_directory_uri(); ?>/js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
-    <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="<?php echo get_template_directory_uri(); ?>/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="<?php echo get_template_directory_uri(); ?>/js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
-    <script src="<?php echo get_template_directory_uri(); ?>/js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
-    <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script> <!-- Custom scripts -->
+    <?php
+  // Ajout de la fonction wp_footer() qui va placer les scripts js qui doivent se trouver avant la fermeture de la balise body
+  // https://developer.wordpress.org/reference/functions/wp_footer/
+  wp_footer();
+  ?>
 </body>
 </html>
