@@ -12,7 +12,7 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/download.png" alt="alternative">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/download.png" alt="alternative">
                     </div> <!-- end of img-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->

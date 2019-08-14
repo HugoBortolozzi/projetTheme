@@ -12,7 +12,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <a href="images/screenshot-1.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-1.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/screenshot-1.png" alt="alternative">
                                     </a>
                                 </div>
                                 <!-- end of slide -->
@@ -20,7 +20,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <a href="images/screenshot-2.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-2.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/screenshot-2.png" alt="alternative">
                                     </a>
                                 </div>
                                 <!-- end of slide -->
@@ -28,7 +28,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <a href="images/screenshot-3.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-3.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/screenshot-3.png" alt="alternative">
                                     </a>
                                 </div>
                                 <!-- end of slide -->
@@ -36,7 +36,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <a href="images/screenshot-4.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-4.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/screenshot-4.png" alt="alternative">
                                     </a>
                                 </div>
                                 <!-- end of slide -->
@@ -44,7 +44,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <a href="images/screenshot-5.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-5.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/screenshot-5.png" alt="alternative">
                                     </a>
                                 </div>
                                 <!-- end of slide -->
@@ -52,7 +52,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <a href="images/screenshot-6.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-6.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/screenshot-6.png" alt="alternative">
                                     </a>
                                 </div>
                                 <!-- end of slide -->
@@ -60,7 +60,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <a href="images/screenshot-7.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-7.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/screenshot-7.png" alt="alternative">
                                     </a>
                                 </div>
                                 <!-- end of slide -->
@@ -68,7 +68,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <a href="images/screenshot-8.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-8.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/screenshot-8.png" alt="alternative">
                                     </a>
                                 </div>
                                 <!-- end of slide -->
@@ -76,7 +76,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <a href="images/screenshot-9.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-9.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/screenshot-9.png" alt="alternative">
                                     </a>
                                 </div>
                                 <!-- end of slide -->
@@ -84,7 +84,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <a href="images/screenshot-10.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-10.png" alt="alternative">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/screenshot-10.png" alt="alternative">
                                     </a>
                                 </div>
                                 <!-- end of slide -->

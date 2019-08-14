@@ -72,7 +72,7 @@
 
                                 <!-- Image Pane -->
                                 <div class="col-lg-4">
-                                    <img class="img-fluid" src="images/features-iphone-1.png" alt="alternative">
+                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/features-iphone-1.png" alt="alternative">
                                 </div>
                                 <!-- end of image pane -->
                                 
@@ -126,7 +126,7 @@
 
                                 <!-- Image Pane -->
                                 <div class="col-md-4">
-                                    <img class="img-fluid" src="images/features-iphone-2.png" alt="alternative">
+                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/features-iphone-2.png" alt="alternative">
                                 </div>
                                 <!-- end of image pane -->
                                 
@@ -238,7 +238,7 @@
 
                                 <!-- Image Pane -->
                                 <div class="col-md-4">
-                                    <img class="img-fluid" src="images/features-iphone-3.png" alt="alternative">
+                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/features-iphone-3.png" alt="alternative">
                                 </div>
                                 <!-- end of image pane -->
                                     

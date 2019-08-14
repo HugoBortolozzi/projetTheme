@@ -14,7 +14,7 @@
                     <div class="image-container">
                         <div class="video-wrapper">
                             <a class="popup-youtube" href="https://www.youtube.com/watch?v=fLCjQJCekTs" data-effect="fadeIn">
-                                <img class="img-fluid" src="images/video-frame.jpg" alt="alternative">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/video-frame.jpg" alt="alternative">
                                 <span class="video-play-button">
                                     <span></span>
                                 </span>

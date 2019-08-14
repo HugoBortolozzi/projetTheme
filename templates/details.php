@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img class="img-fluid" src="images/details-1-iphone.png" alt="alternative">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/details-1-iphone.png" alt="alternative">
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                     <div class="text-container">
@@ -31,7 +31,7 @@
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
                     <div class="col-lg-6">
-                        <img class="img-fluid" src="images/details-2-iphone.png" alt="alternative">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/details-2-iphone.png" alt="alternative">
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
@@ -46,7 +46,7 @@
 		<div class="row">
 			<button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
 			<div class="col-lg-6">
-				<img class="img-fluid" src="images/details-lightbox-1.png" alt="alternative">
+				<img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/details-lightbox-1.png" alt="alternative">
 			</div>
 			<div class="col-lg-6">
 				<h3>Goals Setting</h3>
@@ -74,7 +74,7 @@
 		<div class="row">
 			<button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
 			<div class="col-lg-6">
-				<img class="img-fluid" src="images/details-lightbox-2.png" alt="alternative">
+				<img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/details-lightbox-2.png" alt="alternative">
 			</div>
 			<div class="col-lg-6">
 				<h3>Calendar Input</h3>
