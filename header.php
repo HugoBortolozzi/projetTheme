@@ -59,7 +59,7 @@ wp_head();
         <!-- end of mobile menu toggle button -->
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
+            <!-- <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
                 </li>
@@ -68,23 +68,31 @@ wp_head();
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#preview">PREVIEW</a>
-                </li>
+                </li> -->
 
                 <!-- Dropdown Menu -->          
-                <li class="nav-item dropdown">
+                <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle page-scroll" href="#details" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DETAILS</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="http://localhost:8080/terms-conditions.php"><span class="item-text">TERMS CONDITIONS</span></a>
                         <div class="dropdown-items-divide-hr"></div>
                         <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/privacy-policy.php"><span class="item-text">PRIVACY POLICY</span></a>
                     </div>
-                </li>
+                </li> -->
                 <!-- end of dropdown menu -->
 
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link page-scroll" href="#contact">CONTACT</a>
                 </li>
-            </ul>
+            </ul> -->
+            <?php
+        wp_nav_menu([
+            // 'menu' => 'main-menu',
+          'menu_class' => 'navbar-nav ml-auto',
+          'theme-location' => 'main-menu',
+          'container' => ''
+        ]);
+        ?>
             <span class="nav-item social-icons">
                 <span class="fa-stack">
                     <a href="#your-link">
