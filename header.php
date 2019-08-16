@@ -20,17 +20,15 @@
     <!-- Website Title -->
     <title>Leno - Free Mobile App Landing Page Template</title>
     
-     <!-- Styles -->
-     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/css/fontawesome-all.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/css/swiper.css" rel="stylesheet">
-	<link href="<?php echo get_template_directory_uri(); ?>/css/magnific-popup.css" rel="stylesheet">
-	<link href="<?php echo get_template_directory_uri(); ?>/css/styles.css" rel="stylesheet">
+    <?php 
+ // Ajout des css de manière dynamique grâce à functions.php
+ // https://developer.wordpress.org/reference/functions/wp_head/
+wp_head();
+?> 
 	
 	<!-- Favicon  -->
     <link rel="icon" href="images/favicon.png">
+    
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
 
@@ -76,9 +74,9 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle page-scroll" href="#details" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DETAILS</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="terms-conditions.php"><span class="item-text">TERMS CONDITIONS</span></a>
+                        <a class="dropdown-item" href="http://localhost:8080/terms-conditions.php"><span class="item-text">TERMS CONDITIONS</span></a>
                         <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="privacy-policy.php"><span class="item-text">PRIVACY POLICY</span></a>
+                        <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/privacy-policy.php"><span class="item-text">PRIVACY POLICY</span></a>
                     </div>
                 </li>
                 <!-- end of dropdown menu -->

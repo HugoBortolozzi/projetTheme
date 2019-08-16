@@ -14,7 +14,7 @@ function ajout_css_js()
   wp_enqueue_style('open-sans', "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i");
   wp_enqueue_style('magnific-popup', get_template_directory_uri() . '/css/magnific-popup.css');
   wp_enqueue_style('swiper', get_template_directory_uri() . '/css/swiper.css');
-  wp_enqueue_style('style', get_template_directory_uri() . '/css/style.css');
+  wp_enqueue_style('style', get_template_directory_uri() . '/css/styles.css');
 
   // Ajout des scripts js
   // https://developer.wordpress.org/reference/functions/wp_enqueue_script/
