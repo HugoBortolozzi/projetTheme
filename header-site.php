@@ -61,28 +61,28 @@ wp_head();
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link page-scroll" href="http://localhost:8080/#header">HOME <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#features">FEATURES</a>
+                    <a class="nav-link page-scroll" href="http://localhost:8080/#features">FEATURES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#preview">PREVIEW</a>
+                    <a class="nav-link page-scroll" href="http://localhost:8080/#preview">PREVIEW</a>
                 </li>
 
                 <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle page-scroll" href="#details" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DETAILS</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="http://localhost:8080/terms-conditions.php"><span class="item-text">TERMS CONDITIONS</span></a>
+                        <a class="dropdown-item" href="#"><span class="item-text">TERMS CONDITIONS</span></a>
                         <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/privacy-policy.php"><span class="item-text">PRIVACY POLICY</span></a>
+                        <a class="dropdown-item" href="#"><span class="item-text">PRIVACY POLICY</span></a>
                     </div>
                 </li>
                 <!-- end of dropdown menu -->
 
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
+                    <a class="nav-link page-scroll" href="http://localhost:8080/#contact">CONTACT</a>
                 </li>
             </ul>
             <span class="nav-item social-icons">
