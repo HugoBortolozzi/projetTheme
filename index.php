@@ -31,6 +31,6 @@ get_template_part('templates/statistics');
 // //Ajout de la section contact
 get_template_part('templates/contact');
 
-// // https://developer.wordpress.org/themes/basics/template-files/#using-template-files
-// // Ajout d'un fichier footer.php pour y mettre le footer
+ // // https://developer.wordpress.org/themes/basics/template-files/#using-template-files
+ // // Ajout d'un fichier footer.php pour y mettre le footer
 get_footer();
