@@ -59,32 +59,14 @@ wp_head();
         <!-- end of mobile menu toggle button -->
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="http://localhost:8080/#header">HOME <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="http://localhost:8080/#features">FEATURES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="http://localhost:8080/#preview">PREVIEW</a>
-                </li>
-
-                <!-- Dropdown Menu -->          
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="#details" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DETAILS</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="http://localhost:8080/?page_id=23"><span class="item-text">TERMS CONDITIONS</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="http://localhost:8080/?page_id=21"><span class="item-text">PRIVACY POLICY</span></a>
-                    </div>
-                </li>
-                <!-- end of dropdown menu -->
-
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="http://localhost:8080/#contact">CONTACT</a>
-                </li>
-            </ul>
+        <?php
+        wp_nav_menu([
+            // 'menu' => 'main-menu',
+          'menu_class' => 'navbar-nav ml-auto',
+          'theme-location' => 'main-menu',
+          'container' => ''
+        ]);
+        ?>
             <span class="nav-item social-icons">
                 <span class="fa-stack">
                     <a href="#your-link">
