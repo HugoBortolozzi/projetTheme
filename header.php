@@ -74,9 +74,9 @@ wp_head();
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle page-scroll" href="#details" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DETAILS</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="http://localhost:8080/terms-conditions.php"><span class="item-text">TERMS CONDITIONS</span></a>
+                        <a class="dropdown-item" href="http://localhost:8080/?page_id=23"><span class="item-text">TERMS CONDITIONS</span></a>
                         <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="<?php echo get_template_directory_uri(); ?>/privacy-policy.php"><span class="item-text">PRIVACY POLICY</span></a>
+                        <a class="dropdown-item" href="http://localhost:8080/?page_id=21"><span class="item-text">PRIVACY POLICY</span></a>
                     </div>
                 </li>
                 <!-- end of dropdown menu -->
